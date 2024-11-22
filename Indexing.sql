@@ -14,6 +14,7 @@ FROM
     pg_indexes
 WHERE
     tablename = 'student_table';
+    
 
 drop index stu_index;
 drop index idx_student_lastname_gpa;

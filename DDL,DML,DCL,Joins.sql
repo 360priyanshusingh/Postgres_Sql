@@ -29,7 +29,7 @@ insert into student_Table(rollNumber,FirstName,LastName) values('1','Priyanshu',
 
 INSERT INTO t_orders(id,order_number) values(6,'826shw653g6g7dve7dvw7'),(7,'826shw653g6g7dve7dvw7'),(8,'8237hdgd653g7sg57g7gsf537')
 insert into t_orders values(10,'8dhy736dge64gd763gdye6');
-update t_orders set order_number='837hde6ts6fffff' where  id=1 ;
+update student_table set rollnumber='837hde6ts6fffff' where  id=1 ;
 delete from t_orders where id=6
 RENAME TABLE student1 TO student2;
 
